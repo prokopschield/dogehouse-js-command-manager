@@ -13,11 +13,15 @@ manager.add('!myCommand', (message, argc, argv, argt) => <your function here>);
 ```
 
 `message` => message object
+
 `argc` => number of arguments
+
 `argv` => array of arguments
+
 `argt` => array of tokens
 
 You may return a reply.
+
 This will be sent back to the sender!
 
 To not send anything back, do not return anything, or return `null`
