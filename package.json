@@ -11,5 +11,16 @@
 	"keywords": [],
 	"dependencies": {
 		"doge-utils": "^0.0.9"
-	}
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prokopschield/dogehouse-js-command-manager.git"
+	},
+	"bugs": {
+		"url": "https://github.com/prokopschield/dogehouse-js-command-manager/issues"
+	},
+	"homepage": "https://github.com/prokopschield/dogehouse-js-command-manager#readme"
 }
