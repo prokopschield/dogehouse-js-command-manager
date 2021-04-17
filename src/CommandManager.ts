@@ -12,7 +12,7 @@ export type __internal_commands = Array<{
 	handler: CommandListener;
 }>;
 
-export default class CommandHandler {
+export default class CommandManager {
 	/**
 	 * Pass in the Client instance - your app
 	 * @param client dogehouse.js Client
@@ -66,4 +66,4 @@ export default class CommandHandler {
 		});
 	}
 }
-module.exports = CommandHandler;
+module.exports = CommandManager;

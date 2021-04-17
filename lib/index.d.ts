@@ -1,2 +1,2 @@
-import CommandHandler from './CommandHandler';
-export default CommandHandler;
+import CommandManager from './CommandManager';
+export default CommandManager;

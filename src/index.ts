@@ -1,3 +1,3 @@
-import CommandHandler from './CommandHandler';
-export default CommandHandler;
-module.exports = CommandHandler;
+import CommandManager from './CommandManager';
+export default CommandManager;
+module.exports = CommandManager;

@@ -4,7 +4,7 @@ export declare type __internal_commands = Array<{
     regex: string | RegExp;
     handler: CommandListener;
 }>;
-export default class CommandHandler {
+export default class CommandManager {
     constructor(client: any);
     private _client;
     private _commands;
