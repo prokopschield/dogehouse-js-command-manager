@@ -26,6 +26,8 @@ export default class CommandManager {
 	private _client: any;
 	private _commands: __internal_commands = [];
 	private async _receive (message: any) {
+		// return if I sent the message !!!
+		if (message?.author?.id === message?._client?.bot?.id) return;
 		const tokens = format(message.tokens || message.content || message.text || message);
 		const plaintext = messageToString(tokens, {
 			plain: false,

@@ -1,7 +1,7 @@
 {
 	"name": "dogehouse-js-command-manager",
 	"description": "Command manager for DogeHouse.js bots",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"main": "lib/index.js",
 	"author": "Prokop Schield",
 	"license": "GPL-3.0-or-later",
